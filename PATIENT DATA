@@ -1,0 +1,5 @@
+Patient Data →
+  Serialized →
+    AES-256 encrypt →
+      Stored in local vault →
+        Key never leaves hardware enclave
