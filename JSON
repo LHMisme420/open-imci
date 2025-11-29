@@ -1,0 +1,11 @@
+{
+  "event_id": "uuid-v4",
+  "timestamp": "unix-epoch",
+  "device_id": "hashed-device-key",
+  "case_type": "fever | respiratory | diarrhea | danger-sign",
+  "inputs_hash": "sha256(clinical_inputs)",
+  "protocol_version": "IMCI-2025.1",
+  "output_hash": "sha256(recommendation)",
+  "previous_block_hash": "sha256(prev_block)",
+  "signature": "Ed25519(device_private_key)"
+}
