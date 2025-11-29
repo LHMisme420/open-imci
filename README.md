@@ -1,19 +1,14 @@
-# open-imci → Offline AI IMCI Assistant
+# Open IMCI – Offline AI Diagnostic Assistant
 
-**Goal**: Reduce child mortality by 30–50% in areas with no doctors by putting WHO’s gold-standard IMCI protocol + modern AI directly into the hands of community health workers — 100% offline.
+**100% offline** IMCI (WHO Integrated Management of Childhood Illness) app for community health workers in rural clinics and refugee camps.
 
-Works on $80 Android phones. No internet ever.
+Runs on $80 Android phones. No internet required. Saves children's lives.
 
-## Current state (Nov 2025)
-- Week 0: Repository created
-- Target MVP (Feb 2026): Full IMCI flowchart + symptom checker + danger sign detection + offline LLM fine-tuned on 10,000 real cases
+## Status (November 2025)
+- MVP v0.1 working today
+- Full IMCI flowchart + danger signs
+- Next: Add Gemma-2B offline LLM + camera diagnosis
 
-## Tech stack
-- Flutter (one codebase → Android APK for cheap phones)
-- TensorFlow Lite + Gemma-2B-it quantized or Phi-3-mini (runs offline)
-- WHO IMCI guidelines (public domain)
-
-## Real partners already interested
-(We’ll add UNICEF Venture Fund, MSF, Malaria Consortium once MVP exists)
-
-**One motivated dev can save 10,000+ kids in the next 5 years.**
+## Run it now
+```bash
+flutter run
