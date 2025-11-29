@@ -1,0 +1,4 @@
+IF age < 12 months AND fever AND convulsions:
+  → LOCK all home-care options
+  → FORCE referral alert
+  → LOG emergency escalation into ledger
